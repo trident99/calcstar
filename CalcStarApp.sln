@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CalcStarApp", "CalcStarApp\CalcStarApp.vcproj", "{F2B5C720-A648-40A5-A66C-B124CBB78C95}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9AA0F461-3977-4E78-BCF4-6BE108BE02A0} = {9AA0F461-3977-4E78-BCF4-6BE108BE02A0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CalcStar", "CalcStar\CalcStar.vcproj", "{9AA0F461-3977-4E78-BCF4-6BE108BE02A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2B5C720-A648-40A5-A66C-B124CBB78C95}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F2B5C720-A648-40A5-A66C-B124CBB78C95}.Debug|Win32.Build.0 = Debug|Win32
+		{F2B5C720-A648-40A5-A66C-B124CBB78C95}.Release|Win32.ActiveCfg = Release|Win32
+		{F2B5C720-A648-40A5-A66C-B124CBB78C95}.Release|Win32.Build.0 = Release|Win32
+		{9AA0F461-3977-4E78-BCF4-6BE108BE02A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9AA0F461-3977-4E78-BCF4-6BE108BE02A0}.Debug|Win32.Build.0 = Debug|Win32
+		{9AA0F461-3977-4E78-BCF4-6BE108BE02A0}.Release|Win32.ActiveCfg = Release|Win32
+		{9AA0F461-3977-4E78-BCF4-6BE108BE02A0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
